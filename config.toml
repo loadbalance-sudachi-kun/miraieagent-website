@@ -1,4 +1,4 @@
-baseURL = "https://miraieagent.co.jp/""
+baseURL = "https://miraieagent.co.jp/"
 languageCode = "ja"
 title = "Miraieagent Inc."
 theme = "hugo_theme_robust"
