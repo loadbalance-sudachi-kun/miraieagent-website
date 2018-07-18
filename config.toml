@@ -2,7 +2,7 @@ baseURL = "https://miraieagent.co.jp/"
 languageCode = "ja"
 copyright = "&copy; Miraieagent Inc."
 title = "Miraieagent Inc."
-theme = "hugo_theme_robust"
+theme = "hugo-fresh"
 
 [params]
   description = "株式会社ミライヘ"
