@@ -1,11 +1,90 @@
 baseURL = "https://miraieagent.co.jp/"
 languageCode = "ja"
+copyright = "&copy; Miraieagent Inc."
 title = "Miraieagent Inc."
-theme = "hugo_theme_robust"
+theme = "hugo-theme-jane"
+
+enableRobotsTXT = true
+enableEmoji = true
+hasCJKLanguage = true
+paginate = 3
+rssLimit = 20
+
+PygmentsCodeFences = true
+PygmentsUseClasses = true
+PygmentsCodefencesGuessSyntax = true
+PygmentsOptions = "linenos=table"
+
+defaultContentLanguage = "ja"
+[languages.ja]
+  languageCode = "ja"
+
+[author]
+  name = "株式会社ミライヘ"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]] 
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
+[[menu.main]]
+  name = "external-link"
+  weight = 50
+  url = "https://miraieagent.co.jp"
 
 [params]
   description = "株式会社ミライヘ"
-  dateformat = "2017-07-07"
+  date_format = "2016-01-02"
+
+  debug = false
+  homeFullContent = false
+  rssFullContent = true
+
+  archive-paginate = 3
+  dateFormatToUse = "2006-01-02"
+  moreMeta = true
+  showMenuLanguageChooser = false
+
+  toc = true
+  photoswipe = true
+  bootcdn = false
+  mathjax = false
+
+[params.publicCDN] 
+ enable = false
+
+[params.utteranc]
+ enable = false
+
+[params.reward]
+ enable = false
+
+[params.social]
+    a-email = "info@miraieagent.co.jp"
+    c-twitter = "https://www.facebook.com/a.akikokashiwagi"
+    d-facebook = "https://www.facebook.com/a.akikokashiwagi"
+    e-linkedin = "https://www.facebook.com/a.akikokashiwagi"
+    k-pocket = "https://www.facebook.com/a.akikokashiwagi"
 
 [permalinks]
   post = "/:year/:month/:title/"
