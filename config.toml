@@ -1,11 +1,12 @@
 baseURL = "https://miraieagent.co.jp/"
 languageCode = "ja"
+copyright = "&copy; Miraieagent Inc."
 title = "Miraieagent Inc."
-theme = "hugo_theme_robust"
+theme = "hugo-icon"
 
 [params]
   description = "株式会社ミライヘ"
-  dateformat = "2017-07-07"
+  date_format = "2016-01-02"
 
 [permalinks]
   post = "/:year/:month/:title/"
