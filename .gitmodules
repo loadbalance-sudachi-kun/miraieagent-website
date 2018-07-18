@@ -1,0 +1,6 @@
+[submodule "themes/--force"]
+	path = themes/--force
+	url = git@github.com:SteveLane/hugo-icon.git
+[submodule "themes/hugo-icon"]
+	path = themes/hugo-icon
+	url = git@github.com:SteveLane/hugo-icon.git
