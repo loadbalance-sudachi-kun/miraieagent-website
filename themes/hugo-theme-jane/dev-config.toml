@@ -49,13 +49,13 @@ defaultContentLanguage = "en"  # Default language to use (if you setup multiling
 #  name = "Jane Theme Preview"
 #  weight = 12
 #  parent = "docs"
-#  url = "/posts/jane-theme-preview/"
+#  url = "/post/jane-theme-preview/"
 
 [[languages.en.menu.main]]
   name = "Archives"
   weight = 20
   identifier = "archives"
-  url = "posts/"
+  url = "post/"
 [[languages.en.menu.main]]
   name = "Tags"
   weight = 30
@@ -80,7 +80,7 @@ defaultContentLanguage = "en"  # Default language to use (if you setup multiling
   name = "归档"
   weight = 20
   identifier = "archives"
-  url = "zh-cn/posts/"
+  url = "zh-cn/post/"
 [[languages.zh-cn.menu.main]]
   name = "标签"
   weight = 30
