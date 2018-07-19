@@ -1,5 +1,5 @@
 {{ define "content" }}
-  <section id="posts" class="posts">
+  <section id="" class="">
     {{/* (index .Site.Paginate) */}}
     {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
     {{ range $paginator.Pages }}
